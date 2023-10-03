@@ -10,6 +10,7 @@
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
+    "sass": "^1.68.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },

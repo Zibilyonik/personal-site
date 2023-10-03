@@ -1,19 +1,19 @@
-@use "../variables";
+@use "../variables" as *;
 
 img {
     width: 100vw;
     height: 65vh;
-    // background-color: $secondary;
-    background-color: #4ea699;
+    background-color: $secondary;
+    // background-color: #4ea699;
 }
 
 span {
-    // color: $main;
-    color: #4ea699;
+    color: $main;
+    // color: #4ea699;
 }
 
 h1 {
-    // color: $text;
-    color: #f7f5f1;
+    color: $text;
+    // color: #f7f5f1;
     display: inline;
 }

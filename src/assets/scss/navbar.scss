@@ -1,10 +1,10 @@
-@use "../variables";
+@use "../variables" as *;
 
 .nav-container {
-    // color: $main;
-    color: #4EA699;
-    // background-color: $secondary;
-    background-color: #111717;
+    color: $main;
+    // color: #4EA699;
+    background-color: $secondary;
+    // background-color: #111717;
     height: 50vh;
     width: 100vw;
     position: fixed;
