@@ -1,28 +1,25 @@
+import React from 'react';
+import { BrowserRouter, Link } from 'react-router-dom';
 import '../assets/css/navbar.css';
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
-class NavBar extends Component {
-    render() {
-        return (
-            <Navbar className="nav-container">
-                <Navbar.Header>
-                <Navbar.Brand>
-                    <Link to="/">Home</Link>
-                </Navbar.Brand>
-                </Navbar.Header>
-                <Nav>
-                <NavItem eventKey={1} href="#">
-                    <Link to="/about">About</Link>
-                </NavItem>
-                <NavItem eventKey={2} href="#">
-                    <Link to="/users">Projects</Link>
-                </NavItem>
-                </Nav>
-            </Navbar>
-        )
-    }
+function Navbar() {
+  return (
+    <BrowserRouter>
+        <nav className='nav-main'>
+            <ul className='nav-cont'>
+                <li className='nav-link'>
+                    <Link to='/'>Home</Link>
+                </li>
+                <li className='nav-link'>
+                    <Link to='/about'>About</Link>
+                </li>
+                <li className='nav-link'>
+                    <Link to='/projects'>Projects</Link> 
+                </li>
+            </ul>
+        </nav>
+    </BrowserRouter>
+  );
 }
 
-export default NavBar;
+export default Navbar;
