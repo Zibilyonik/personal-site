@@ -1,11 +1,23 @@
 @use "../variables" as *;
 
-.nav-container {
+.nav-main {
     color: $main;
     // color: #4EA699;
     background-color: $secondary;
     // background-color: #111717;
-    height: 50vh;
+    height: $nav-height;
     width: 100vw;
+    top:0px;
     position: fixed;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 10px 15px;
+}
+a {
+    text-decoration: none;
+    color: $main;
 }

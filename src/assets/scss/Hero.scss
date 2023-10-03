@@ -2,8 +2,9 @@
 
 img {
     width: 100vw;
-    height: 65vh;
-    background-color: $secondary;
+    margin-top: $nav-height;
+    height: $hero-height;
+    background-color: $main;
     // background-color: #4ea699;
 }
 

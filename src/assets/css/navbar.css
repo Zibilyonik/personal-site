@@ -1,7 +1,21 @@
-.nav-container {
+.nav-main {
   color: #4ea699;
   background-color: #111717;
-  height: 50vh;
+  height: 55px;
   width: 100vw;
+  top: 0px;
   position: fixed;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 10px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #4ea699;
 }/*# sourceMappingURL=navbar.css.map */
