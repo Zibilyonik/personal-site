@@ -1,9 +1,11 @@
+@use "../variables.scss";
+
 img {
     width: 100vw;
     height: 65vh;
-    background-color: #4ea699;
+    background-color: $main;
 }
 
 h1:first-of-type {
-    color: #4ea699;    
+    color: $main;
 }
