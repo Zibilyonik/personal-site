@@ -1,1 +1,7 @@
-/*# sourceMappingURL=navbar.css.map */
+.nav-container {
+  color: #4ea699;
+  background-color: #111717;
+  height: 55px;
+  width: 100vw;
+  position: fixed;
+}/*# sourceMappingURL=navbar.css.map */
