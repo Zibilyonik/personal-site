@@ -1,15 +1,12 @@
 import '../assets/css/navbar.css';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
-
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 class NavBar extends Component {
     render() {
         return (
-            <Navbar>
+            <Navbar className="nav-container">
                 <Navbar.Header>
                 <Navbar.Brand>
                     <Link to="/">Home</Link>
