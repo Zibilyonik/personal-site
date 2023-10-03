@@ -4,6 +4,11 @@ img {
   background-color: #4ea699;
 }
 
-h1:first-of-type {
+span {
   color: #4ea699;
+}
+
+h1 {
+  color: #f7f5f1;
+  display: inline;
 }/*# sourceMappingURL=Hero.css.map */

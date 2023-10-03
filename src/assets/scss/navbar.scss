@@ -1,9 +1,11 @@
-@use "../variables.scss";
+@use "../variables";
 
 .nav-container {
-    color: $main;
-    background-color: $secondary;
-    height: 55px;
+    // color: $main;
+    color: #4EA699;
+    // background-color: $secondary;
+    background-color: #111717;
+    height: 50vh;
     width: 100vw;
     position: fixed;
 }

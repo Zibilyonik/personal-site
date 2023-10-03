@@ -1,11 +1,19 @@
-@use "../variables.scss";
+@use "../variables";
 
 img {
     width: 100vw;
     height: 65vh;
-    background-color: $main;
+    // background-color: $secondary;
+    background-color: #4ea699;
 }
 
-h1:first-of-type {
-    color: $main;
+span {
+    // color: $main;
+    color: #4ea699;
+}
+
+h1 {
+    // color: $text;
+    color: #f7f5f1;
+    display: inline;
 }
