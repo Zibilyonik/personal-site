@@ -4,17 +4,11 @@ img {
     width: 100vw;
     margin-top: $nav-height;
     height: $hero-height;
+    max-height: 600px;
     background-color: $main;
     // background-color: #4ea699;
 }
 
-span {
-    color: $main;
-    // color: #4ea699;
-}
-
-h1 {
-    color: $text;
-    // color: #f7f5f1;
+.styled-text-cont h1 {
     display: inline;
 }

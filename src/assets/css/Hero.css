@@ -1,15 +1,20 @@
+.title {
+  color: #4ea699;
+  font-weight: 600;
+}
+
+.coloured {
+  color: #4ea699;
+}
+
 img {
   width: 100vw;
   margin-top: 55px;
   height: 65vh;
+  max-height: 600px;
   background-color: #4ea699;
 }
 
-span {
-  color: #4ea699;
-}
-
-h1 {
-  color: #f7f5f1;
+.styled-text-cont h1 {
   display: inline;
 }/*# sourceMappingURL=Hero.css.map */
