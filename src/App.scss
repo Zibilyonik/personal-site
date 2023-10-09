@@ -1,0 +1,26 @@
+@use "./assets/_variables" as *;
+@import '~bootstrap/scss/bootstrap';
+
+
+.App {
+  text-align: center;
+  margin:0 auto;
+  padding:0;
+}
+
+.App h1 {
+  color: $text;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100vh;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+a {
+  all: unset;
+}
