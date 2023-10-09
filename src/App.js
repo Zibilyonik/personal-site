@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Navbar from './components/navbar';
 import Hero from './components/Hero';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 class App extends Component {
