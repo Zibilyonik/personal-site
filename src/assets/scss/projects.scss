@@ -1,0 +1,15 @@
+@use "../variables" as *;
+
+.projects-container {
+    background-color: $secondary;
+    // background-color: #111717;
+    padding: 20px;
+    margin-top: $nav-height;
+    font-size: 16pt;
+    h2 {
+        color: $main;
+        // color: #4EA699;
+        font-size: 24pt;
+        margin-bottom: 20px;
+    }
+}

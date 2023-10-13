@@ -1,0 +1,31 @@
+.title {
+  color: #4ea699;
+  font-weight: 600;
+}
+
+.coloured {
+  color: #4ea699;
+}
+
+.App a {
+  color: #4ea699;
+  text-decoration: none;
+}
+.App a h2 {
+  font-weight: bold;
+}
+.App a p {
+  color: #f7f5f1;
+}
+
+.projects-container {
+  background-color: #111717;
+  padding: 20px;
+  margin-top: 55px;
+  font-size: 16pt;
+}
+.projects-container h2 {
+  color: #4ea699;
+  font-size: 24pt;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=projects.css.map */
