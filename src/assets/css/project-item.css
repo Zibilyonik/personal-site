@@ -1,0 +1,49 @@
+.title {
+  color: #4ea699;
+  font-weight: 600;
+}
+
+.coloured {
+  color: #4ea699;
+}
+
+.App a {
+  color: #4ea699;
+  text-decoration: none;
+}
+.App a h2 {
+  font-weight: bold;
+}
+.App a p {
+  color: #f7f5f1;
+}
+
+.project-item {
+  background-color: #111717;
+  padding: 20px 0;
+  margin: -1px;
+  width: 100vw;
+  border: none;
+}
+.project-item .project-img {
+  width: 90vw;
+  height: 90vw;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.project-item .project-title {
+  font-size: 20pt;
+  margin-bottom: 10px;
+}
+.project-item .project-desc {
+  margin-bottom: 10px;
+}
+.project-item a {
+  text-decoration: none;
+  color: #4ea699;
+}
+.project-item a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=project-item.css.map */
