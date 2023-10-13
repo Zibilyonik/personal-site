@@ -13,3 +13,14 @@ $hero-height: 65vh;
 .coloured {
     color: $main;
 }
+
+.App a {
+    color: $main;
+    text-decoration: none;
+    h2 {
+        font-weight: bold;
+    }
+    p {
+        color: $text;
+    }
+}
