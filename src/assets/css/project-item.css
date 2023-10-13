@@ -7,17 +7,6 @@
   color: #4ea699;
 }
 
-.App a {
-  color: #4ea699;
-  text-decoration: none;
-}
-.App a h2 {
-  font-weight: bold;
-}
-.App a p {
-  color: #f7f5f1;
-}
-
 .project-item {
   background-color: #111717;
   padding: 20px 0;

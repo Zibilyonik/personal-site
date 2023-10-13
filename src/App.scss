@@ -25,3 +25,14 @@
 a {
   all: unset;
 }
+
+.App a {
+  color: $main;
+  text-decoration: none;
+  h2 {
+      font-weight: bold;
+  }
+  p {
+      color: $text;
+  }
+}
