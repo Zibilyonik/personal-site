@@ -7,6 +7,17 @@
   color: #4ea699;
 }
 
+.App a {
+  color: #4ea699;
+  text-decoration: none;
+}
+.App a h2 {
+  font-weight: bold;
+}
+.App a p {
+  color: #f7f5f1;
+}
+
 img {
   width: 100vw;
   margin-top: 55px;
