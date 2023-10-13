@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../assets/css/navbar.css';
 
 function Navbar() {
   return (
-    <BrowserRouter>
         <nav className='nav-main'>
             <ul className='nav-cont'>
                 <li className='nav-link'>
@@ -18,7 +17,6 @@ function Navbar() {
                 </li>
             </ul>
         </nav>
-    </BrowserRouter>
   );
 }
 
