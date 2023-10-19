@@ -1,5 +1,6 @@
 img {
   width: 100vw;
+  overflow: hidden;
   margin-top: 55px;
   height: 65vh;
   max-height: 600px;
@@ -7,5 +8,12 @@ img {
 }
 
 .styled-text-cont h1 {
-  display: inline;
+  display: inline-flex;
+  margin: 5vw 2vh;
+  text-align: start;
+  flex-direction: column;
+}
+.styled-text-cont h1 span {
+  font-size: 1.2em;
+  margin: 10px 0;
 }/*# sourceMappingURL=Hero.css.map */

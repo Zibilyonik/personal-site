@@ -2,6 +2,7 @@
 
 img {
     width: 100vw;
+    overflow: hidden;
     margin-top: $nav-height;
     height: $hero-height;
     max-height: 600px;
@@ -10,5 +11,12 @@ img {
 }
 
 .styled-text-cont h1 {
-    display: inline;
+    display: inline-flex;
+    margin: 5vw 2vh;
+    text-align: start;
+    flex-direction: column;
+    span {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
 }
