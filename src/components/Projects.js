@@ -10,6 +10,7 @@ function Projects() {
             {projects.map(project => (
                 <Link className="project-link" key={project.id} to={`/projects/${project.id}`}>
                     <ProjectItem
+                        number={project.id + 1}
                         image={project.image}
                         title={project.title}
                         description={project.description}
