@@ -1,25 +1,36 @@
 @use "../variables" as *;
+
 .project-item {
     // background-color: #1C1C1C;
     background-color: $secondary;
     // color: #4EA699;
     padding: 20px 0;
-    margin: -1px;
-    width: 100vw;
+    margin: -1px auto;
+    width: 90vw;
     border: none;
+    .project-number{
+        color: $main;
+        // color: #4EA699;
+        font-size: 18pt;
+        margin-bottom: 10px;
+        text-align: start;
+    }
     .project-img{
-        width: 90vw;
-        height: 90vw;
+        width: 80vw;
+        height: 80vw;
         margin: 0 auto;
         margin-bottom: 20px;
         border-radius: 8px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 5px 10px rgba($main, 0.4);
     }
     .project-title {
+        text-align: start;
         font-size: 20pt;
         margin-bottom: 10px;
     }
     .project-desc {
+        text-align: start;
+        font-size: 16pt;
         margin-bottom: 10px;
     }
     a {
