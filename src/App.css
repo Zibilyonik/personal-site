@@ -11982,6 +11982,7 @@ textarea.form-control-lg {
   margin: 0 auto;
   padding: 0;
   min-height: 100vh;
+  padding-top: 55px;
 }
 
 .App h1, .App .h1 {
