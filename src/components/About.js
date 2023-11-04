@@ -1,15 +1,18 @@
 import React from 'react';
-import { projects } from './projects_db';
+import '../assets/scss/About.scss';
 
 function About() {
     return (
-        <div className='styled-text-cont'>
-            <a href="./Resume Martyna Szczepaniak.pdf" target='_blank'>
-                <button type="button">Download My Resume</button>
-            </a>
-            <h1>Hi, my name is Martyna and I&rsquo;m a UX/UI designer.</h1>
-            <h1>I have [Number of Years] years of experience in UX/UI Design and have recently worked on projects such as {projects[0].title}, {projects[1].title}, and {projects[2].title}.</h1>
-            <h1>In my free time, I enjoy [Hobby 1], [Hobby 2], and [Hobby 3].</h1>
+        <div id="About">
+            <div id="resume-btn">
+                <a href="./Resume Martyna Szczepaniak.pdf" target='_blank'>Resume</a>
+            </div>
+            <div className="styled-text-cont">
+                <h1><span>I&rsquo;m</span> a Wrocław, Poland-based designer, passionate about new challenges and finding solutions to problems during the design process. </h1>
+                <h1><span>My goal</span> is constant growth and learning through the feedback I receive during projects. I&rsquo;m always looking for a way to improve myself, and I believe continuous progress and curiosity are the keys to success. </h1>
+                <h1><span>My life</span> has been revolving around creative work, from traditional techniques of artistic expression from a very young age to finishing the Art Academy with a Master&rsquo;s Degree in Media Art, I have always been looking for a way to design and create.</h1>
+                <h1><span>Finishing</span> Google&rsquo;s UX Design Professional Certificate helped me discover a new branch of design and realise what I&rsquo;m really passionate about, as UX/UI design perfectly combines problem-solving with creative work.</h1>
+            </div>
         </div>
     );
 }
