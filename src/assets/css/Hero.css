@@ -12,8 +12,15 @@ img {
   margin: 5vw 2vh;
   text-align: start;
   flex-direction: column;
+  font-family: Lato;
+  color: #f7f5f1;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .styled-text-cont h1 span {
   font-size: 1.2em;
   margin: 10px 0;
+  color: #4ea699;
 }/*# sourceMappingURL=Hero.css.map */

@@ -15,8 +15,15 @@ img {
     margin: 5vw 2vh;
     text-align: start;
     flex-direction: column;
+    font-family: Lato;
+    color: $text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     span {
         font-size: 1.2em;
         margin: 10px 0;
+        color: $main;
     }
 }
