@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ProjectItem from './Project-Item';
 import { projects } from './projects_db';
-import "../assets/scss/projects.scss"
+import "../assets/scss/Projects.scss"
 
 function Projects() {
     return (
