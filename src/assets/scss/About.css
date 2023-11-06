@@ -1,0 +1,16 @@
+#resume-btn {
+  min-width: 100px;
+  width: 30vw;
+  padding: 5px 10px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #4ea699;
+}
+#resume-btn a {
+  color: #f7f5f1;
+  font-size: 20px;
+}
+
+#About .styled-text-cont h1 {
+  display: block;
+}/*# sourceMappingURL=About.css.map */
