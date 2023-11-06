@@ -12005,6 +12005,7 @@ a {
 .App a {
   color: #4ea699;
   text-decoration: none;
+  cursor: pointer;
 }
 .App a h2, .App a .h2 {
   font-weight: bold;
