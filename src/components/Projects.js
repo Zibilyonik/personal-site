@@ -2,15 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ProjectItem from './Project-Item';
 import { projects } from './projects_db';
-import "../assets/scss/Projects.scss"
+import "../assets/scss/Projects.scss";
 
 function Projects() {
     return (
         <div className="projects-cont">
             {projects.map(project => (
-                <Link className="project-link" key={project.id} to={`/projects/${project.id}`}>
+                <Link className="project-link" key={project.id} to={`/projects/project-${project.id}`} >
                     <ProjectItem
-                        number={project.id + 1}
+                        number={project.id}
                         image={project.image}
                         title={project.title}
                         description={project.description}
