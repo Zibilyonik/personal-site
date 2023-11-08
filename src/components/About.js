@@ -1,9 +1,11 @@
 import React from 'react';
 import '../assets/scss/About.scss';
+import TitleCard from './TitleCard';
 
 function About() {
     return (
         <div id="About">
+            <TitleCard name="About" path="https://via.placeholder.com/450" />
             <div id="resume-btn">
                 <a href="./Resume Martyna Szczepaniak.pdf" target='_blank'>Resume</a>
             </div>

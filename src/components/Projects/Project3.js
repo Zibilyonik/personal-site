@@ -1,9 +1,9 @@
 import React from "react";
-
+import TitleCard from "../TitleCard";
 function Project3() {
   return (
     <div>
-      <h1>Yes, hello, here is Project3!</h1>
+      <TitleCard name="Project 3" path="https://via.placeholder.com/450" />
     </div>
   );
 }
