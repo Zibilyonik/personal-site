@@ -1,6 +1,14 @@
 @use "./assets/_variables" as *;
 @import '~bootstrap/scss/bootstrap';
 
+html{
+  scroll-behavior: smooth;
+  // Fallback for Safari browsers
+  @supports not (-webkit-overflow-scrolling: touch) {
+    scroll-behavior: auto;
+  }
+  background-color: $secondary;
+}
 
 .App {
   text-align: center;
@@ -8,7 +16,6 @@
   margin:0 auto;
   padding:0;
   min-height: 100vh;
-  padding-top: $nav-height;
 }
 
 .App h1 {
@@ -44,6 +51,13 @@ a {
   color: $main;
   font-weight: 600;
   // color: #4ea699;
+}
+
+.title-card{
+  h1 {
+    margin-top: -5vh;
+    margin-bottom: +5vh;
+  }
 }
 
 .coloured {
