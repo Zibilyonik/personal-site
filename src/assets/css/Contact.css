@@ -1,16 +1,16 @@
 #Contact {
-  margin: 5vh 10vw;
-}
-#Contact * {
-  margin: 3vh 0;
+  min-height: 100vh;
 }
 #Contact h1 {
   font-family: Lato;
   color: #4ea699;
   font-weight: 900;
   text-align: left;
+  margin-left: 3vw;
 }
 #Contact h2 {
   text-align: left;
-  margin-left: 5vw;
+}
+#Contact #contact-links {
+  margin: 5vh 5vw;
 }/*# sourceMappingURL=Contact.css.map */
