@@ -4,7 +4,7 @@ import Projects from "./Projects";
 
 function Home() {
     return (
-        <div>
+        <div id="home-cont" className="main-cont">
             <Hero />
             <Projects />
         </div>
