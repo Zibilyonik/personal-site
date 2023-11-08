@@ -9,7 +9,8 @@
     height: $nav-height;
     width: 100vw;
     top:0px;
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     font-size: 16pt;
     ul {
         list-style: none;

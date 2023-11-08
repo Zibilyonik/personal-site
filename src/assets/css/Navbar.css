@@ -5,7 +5,7 @@
   height: 55px;
   width: 100vw;
   top: 0px;
-  position: fixed;
+  position: sticky;
   font-size: 16pt;
 }
 .nav-main ul {
@@ -18,4 +18,4 @@
 .nav-main a {
   text-decoration: none;
   color: #4ea699;
-}/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=Navbar.css.map */
