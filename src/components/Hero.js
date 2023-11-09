@@ -1,6 +1,6 @@
 import logo from "../logo.svg";
 import React from "react";
-import "../assets/css/Hero.css";
+import "../assets/scss/Hero.scss";
 import TitleCard from "./TitleCard";
 
 
