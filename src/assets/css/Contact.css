@@ -1,12 +1,14 @@
 #Contact {
   min-height: 100vh;
 }
+#Contact .titlecard-title {
+  color: #f7f5f1;
+}
 #Contact h1 {
-  font-family: Lato;
   color: #4ea699;
-  font-weight: 900;
   text-align: left;
   margin-left: 3vw;
+  font-style: normal;
 }
 #Contact h2 {
   text-align: left;
