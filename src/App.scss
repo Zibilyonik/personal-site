@@ -1,5 +1,4 @@
 @use "./assets/_variables" as *;
-@import '~bootstrap/scss/bootstrap';
 
 html{
   scroll-behavior: smooth;
@@ -54,9 +53,17 @@ a {
 }
 
 .title-card{
-  h1 {
-    margin-top: -5vh;
-    margin-bottom: +5vh;
+  $margin-val: 2vh;
+  .titlecard-title {
+    text-align: left;
+    color: $text;
+    font-weight: 700;
+    margin-top: -10vh;
+    margin-bottom: $margin-val;
+    margin-left: 2.5vw;
+  }
+  .titlecard-last{
+    margin-bottom: $margin-val+8vh;
   }
 }
 
