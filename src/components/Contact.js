@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <div id="Contact">
             <TitleCard name="Contact" path="https://via.placeholder.com/450" />
-            <h1>Let&rsquo;s Connect!</h1>
+            <h1 id="contact-header">Let&rsquo;s Connect!</h1>
             <div id="contact-links">
                 <h2><a href="mailto:mszczepaniakux@gmail.com" target="_blank" rel="noreferrer">Email</a></h2>
                 <h2><a href="https://www.linkedin.com/in/martyna-szczepaniak-ux" target="_blank" rel="noreferrer">LinkedIn</a></h2>
