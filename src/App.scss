@@ -32,12 +32,12 @@ html{
 
 a {
   all: unset;
+  cursor: pointer;
 }
 
 .App a {
   color: $main;
   text-decoration: none;
-  cursor:pointer;
   h2 {
       font-weight: bold;
   }
