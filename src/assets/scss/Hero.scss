@@ -1,17 +1,16 @@
 @use "../variables" as *;
 
-img {
-    width: 100vw;
+.titlecard-img {
+    width: 100%;
     overflow: hidden;
     height: $hero-height;
     max-height: 600px;
     background-color: $main;
-    // background-color: #4ea699;
 }
 
 .styled-text-cont h1 {
     display: inline-flex;
-    margin: 5vw 2vh;
+    margin: 0 5vw 2vh 5vw;
     text-align: start;
     flex-direction: column;
     color: $text;
@@ -21,7 +20,6 @@ img {
     line-height: normal;
     span {
         font-size: 1.2em;
-        margin: 10px 0;
         color: $main;
     }
 }
