@@ -1,0 +1,38 @@
+@use "../variables" as *;
+#project-main{
+    width:90%;
+    margin: 0 auto;
+    img{
+        width: 75vw;
+        border-radius: 15px;
+        margin: 1vh auto;
+    }
+    .img-sq {
+        height: 75vw;
+    }
+    .img-rec {
+        height: 50vw;
+    }
+    h2{
+        color: $main;
+        text-align: left;
+        font-size: 24pt;
+        font-weight: bold;
+    }
+    h3{
+        color: $main;
+        text-align: left;
+        font-size: 20pt;
+        font-weight: bold;
+    
+    }
+    p{
+        color: #f7f5f1;
+        font-size: 16pt;
+        /* margin: 1vh 0; */
+        text-align: left;
+        span {
+            color: $main;
+        }
+    }
+}
