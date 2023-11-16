@@ -7,6 +7,7 @@ import "../assets/scss/Projects.scss";
 function Projects() {
     return (
         <div className="projects-cont">
+            <h2>Projects</h2>
             {projects.map(project => (
                 <Link className="project-link" key={project.id} to={`/projects/project-${project.id}`} >
                     <ProjectItem
