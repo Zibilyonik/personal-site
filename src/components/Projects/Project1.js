@@ -4,7 +4,7 @@ import "../../assets/scss/Project1.scss";
 function Project1() {
   return (
     <div id="project-page">
-      <TitleCard name="Project 1" path="https://via.placeholder.com/450" />
+      <TitleCard name="SimplyBetter" subtitle="Therapist Scheduling App and Responsive Webapp" path="https://via.placeholder.com/450" />
       <div id="project-main">
         <div className="project-info">
           <h2>Designed to help</h2>
