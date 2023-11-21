@@ -102,7 +102,7 @@ function Project2() {
           <p><span>What I&rsquo;ve learned:</span> While designing the Clicked-in website, I learned that the first ideas for the app are only the beginning of the process. Usability studies and peer feedback influenced each iteration of the app’s designs.</p>
           <h3>Next Steps</h3>
           <p><span>1:</span> Conduct another round of usability studies to validate whether the pain points users experienced have been effectively addressed.</p>
-          <p><span>2:</span>  Conduct more user research to determine any new areas of need.</p>
+          <p><span>2:</span> Conduct more user research to determine any new areas of need.</p>
         </div>
       </div>
     </div>
