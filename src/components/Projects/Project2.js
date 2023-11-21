@@ -23,7 +23,7 @@ function Project2() {
             <h3>Assumptions</h3>
             <p><span>Users:</span> Professional and amateur photographers.</p>
             <p><span>User Goals:</span> Expanding network, finding and posting commissions and collaboration requests.</p>
-            <p><span>Potential Features:</span>Suggested posts and profiles, different plans for different purposes, easy step-by-step job posts.</p>
+            <p><span>Potential Features:</span> Suggested posts and profiles, different plans for different purposes, easy step-by-step job posts.</p>
           </section>
           <section>
             <h3>Meet the Users</h3>

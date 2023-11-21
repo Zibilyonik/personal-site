@@ -24,7 +24,7 @@ function Project1() {
             <h3>Assumptions</h3>
             <p><span>Users:</span> People seeking therapists and psychologists.</p>
             <p><span>User Goals:</span> Easy, quick way to find a fitting therapist and scheduling a visit.</p>
-            <p><span>Potential Features:</span>Tinder-like swiping system for finding a therapist, traits system, custom reminders.</p>
+            <p><span>Potential Features:</span> Tinder-like swiping system for finding a therapist, traits system, custom reminders.</p>
           </section>
           <section>
             <h3>Meet the Users</h3>
