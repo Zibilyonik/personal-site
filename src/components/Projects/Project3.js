@@ -6,23 +6,23 @@ function Project3() {
       <TitleCard name="GameMaster" subtitle="Arcade High-Score Tracking App" path="https://via.placeholder.com/450" />
       <div id="project-main">
         <div className="project-info">
-          <h2>Designed to connect</h2>
-          <p>Clicked-in is a photography networking website, that allows users to create, update and promote their work. The product offers job hunting and posting offers, along with looking for coworkers.</p>
+          <h2>Designed for fun</h2>
+          <p>GameMaster is an app that allows users to keep track of their score in arcade games with additional function of finding and inviting other players for a match. GameMaster targets various users, from competitive players to children (multiple profiles on one account for parental control).</p>
         </div>
         <div className="project-info">
           <h2>Overview</h2>
           <img className="img-sq" src="https://via.placeholder.com/450" alt="BetterHelp logo" />
-          <p>Fast and intuitive access to jobs and &rdquo;for hire&rdquo; pages</p>
+          <p>Easy and straightforward connection to the arcade machine</p>
           <img className="img-sq" src="https://via.placeholder.com/450" alt="BetterHelp logo" />
-          <p>Easy, step-by-step process of posting a job.</p>
+          <p>Fast access to the game history and scores</p>
         </div>
         <div className="project-info">
           <h2>Understanding</h2>
           <section>
             <h3>Assumptions</h3>
-            <p><span>Users:</span> Professional and amateur photographers.</p>
-            <p><span>User Goals:</span> Expanding network, finding and posting commissions and collaboration requests.</p>
-            <p><span>Potential Features:</span>Suggested posts and profiles, different plans for different purposes, easy step-by-step job posts.</p>
+            <p><span>Users:</span> Casual and competitive arcade gamers.</p>
+            <p><span>User Goals:</span> Get better at games, find a quick way to track scores, easy access to other users and inviting them to play together.</p>
+            <p><span>Potential Features:</span> QR pairing, forum, friends list, parental control</p>
           </section>
           <section>
             <h3>Meet the Users</h3>
