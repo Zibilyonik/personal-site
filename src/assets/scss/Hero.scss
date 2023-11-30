@@ -29,6 +29,7 @@
         height: $hero-height-lg;
         border-radius: 15px;
         width: 55vw;
+        max-width: 700px;
         max-height: 350px;
         margin-left: 30%;
     }
@@ -39,7 +40,7 @@
     
     .styled-text-cont {
         position: absolute;
-        top: 15vh;
+        top: 17vh;
         left: 10vw;
         background-color: transparent;
         width: 65%;
